@@ -3318,7 +3318,7 @@ ts-message .reply_bar:hover {
 }
 
 .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider {
-    background: #727272;
+    background: #3b3b3b;
 }
 
 .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider::before {
