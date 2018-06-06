@@ -11,13 +11,13 @@ a {
 
 a:link,
 a:visited {
-    color: #949494;
+    color: #0576b9;
 }
 
 a:hover,
 a:active,
 a:focus {
-    color: #c7c7c7;
+    color: #fff;
 }
 
 hr {
@@ -40,7 +40,7 @@ h1 a:active,
 h1 a:hover,
 h1 a:link,
 h1 a:visited {
-    color: #e6e6e6;
+    color: #0576b9;
 }
 
 .bordered {
@@ -7313,7 +7313,7 @@ footer ul a:link,
 footer ul a:visited,
 #autocomplete_menu.search_menu footer.unified ul a:link,
 #autocomplete_menu.search_menu footer.unified ul a:visited {
-    color: #e6e6e6;
+    color: #0576b9;
 }
 
 .plastic_row h3 {
@@ -7835,7 +7835,7 @@ table tr:first-child th:not(:only-of-type) {
 
 .ent_alert a:link,
 .ent_alert a:visited {
-    color: #c7c7c7;
+    color: #0576b9;
 }
 
 .ent_alert_page.ent_alert_error {
@@ -8387,7 +8387,7 @@ html.no_touch .action_cog:hover i {
 .widescreen:not(.nav_open) nav#site_nav ul a:visited,
 .widescreen:not(.nav_open) nav#site_nav ul a:hover,
 .widescreen:not(.nav_open) nav#site_nav ul a:active {
-    color: #c7c7c7;
+    color: #0576b9;
 }
 
 .widescreen:not(.nav_open) nav#site_nav #user_menu_name {
