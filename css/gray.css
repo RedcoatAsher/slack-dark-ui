@@ -2405,13 +2405,13 @@ ts-message:hover .edited,
 ts-message:hover .reply_bar .last_reply_at,
 ts-message:hover .timestamp,
 ts-message:hover.automated .message_body {
-    color: #949494;
+    color: #e0e0e0;
 }
 
 ts-message.active .meta,
 ts-message.message--focus .meta,
 ts-message:hover .meta {
-    color: #949494 !important;
+    color: #e0e0e0 !important;
 }
 
 ts-message.active .meta.msg_inline_file_preview_toggler a,
@@ -3318,7 +3318,7 @@ ts-message .reply_bar:hover {
 }
 
 .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider {
-    background: #3b3b3b;
+    background: #222;
 }
 
 .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider::before {
@@ -4032,7 +4032,7 @@ ts-thread .thread_participants {
 }
 
 #flex_contents {
-    background: #222;
+    background: #3b3b3b;
 }
 
 #flex_contents .heading {
