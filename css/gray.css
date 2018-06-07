@@ -4815,9 +4815,9 @@ html.no_touch a.filetype_button_web:hover .file_title {
 a.c-member_slug,
 .c-member_slug--link,
 .c-mrkdwn__subteam--link {
-    color: #e6e6e6;
-    border: 1px solid #545454;
-    background: #363636;
+    color: #0576b9;
+    border: 1px solid #eaf5fc;
+    background: #eaf5fc;
 }
 
 a.c-member_slug.active,
@@ -4826,8 +4826,8 @@ a.c-member_slug:hover,
 .c-member_slug--link:hover,
 .c-mrkdwn__subteam--link.active,
 .c-mrkdwn__subteam--link:hover {
-    color: #e6e6e6;
-    background: #424242;
+    color: #0576b9;
+    background: #eaf5fc;
 }
 
 .mention_rxn .mention_rxn_summary {
