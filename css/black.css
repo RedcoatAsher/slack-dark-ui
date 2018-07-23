@@ -1736,7 +1736,9 @@ textarea[readonly] {
 
 
 .popover,
-.popover > div {
+.popover > div,
+.c-search__input_box,
+.c-search__input_and_close__close {
     border-top: 1px solid #545454;
     background-color: #222;
 }
