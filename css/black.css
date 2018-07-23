@@ -1730,6 +1730,35 @@ textarea[readonly] {
     background-color: #222;
 }
 
+
+
+
+
+
+.popover,
+.popover > div {
+    border-top: 1px solid #545454;
+    background-color: #222;
+}
+
+.popover .arrow::after {
+    background-color: #000;
+}
+
+.popover .arrow_shadow::after {
+    background-color: #222;
+    box-shadow: 0 0 0 1px #545454, 0 0 3px rgba(0, 0, 0, .08);
+}
+
+.popover.showing_header .arrow::after,
+.popover.showing_header .arrow_shadow::after {
+    background-color: #222 !important;
+}
+
+.popover .content {
+    background-color: #222;
+}
+
 .tab_complete_ui {
     border: 1px solid #363636;
     background: #222;
