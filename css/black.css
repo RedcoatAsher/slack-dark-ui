@@ -1731,7 +1731,13 @@ textarea[readonly] {
 }
 
 
+.c-search {
+    background: #3b3b3b;
+}
 
+.c-search_message__body {
+    color: #fff;
+}
 
 
 
