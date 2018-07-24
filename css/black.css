@@ -9761,3 +9761,43 @@ comments {
 .para_menu a.trigger.pilcrow.active {
     filter: grayscale(2) brightness(2);
 }
+
+ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator), 
+ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator), 
+ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator),
+.c-search_autocomplete__suggestion_list, .c-search_autocomplete__suggestion_list footer {
+    background: #1b1b1b !important;
+    background-color: #1b1b1b !important;
+}
+
+.c-search_autocomplete__suggestion_list span,
+.c-search_autocomplete__suggestion_list footer span {
+   color: #f0f0f0 !important;
+}
+
+.btn.dialog_go {
+/*     color: #f0f0f0 !important; */
+    background-color: #58b957 !important;
+}
+
+
+.btn,
+ts-message .action_hover_container .btn_msg_action:hover,
+.c-message_actions__container button:hover {
+    color: #f0f0f0 !important;
+}
+
+.c-message_actions__button {
+    color: #1b1b1b !important;
+}
+
+ts-message .action_hover_container .btn_msg_action,
+ts-message .action_hover_container .btn_msg_action i,
+.c-message_actions__container {
+    background: #bada55;
+}
+
+ts-message .action_hover_container .btn_msg_action:hover,
+.c-message_actions__container button:hover {
+    background: #ef6d22 !important;
+}
