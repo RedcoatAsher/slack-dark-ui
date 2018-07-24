@@ -9784,13 +9784,9 @@ ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.n
     background-color: #58b957 !important;
 }
 
-
 .btn,
-ts-message .action_hover_container .btn_msg_action:hover,
-.c-message_actions__container button:hover {
-    color: #fff !important;
-}
-
+ts-message .action_hover_container .btn_msg_action,
+.c-message_actions__container button,
 .c-message_actions__button {
     color: #fff !important;
 }
