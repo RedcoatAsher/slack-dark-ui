@@ -11,13 +11,13 @@ a {
 
 a:link,
 a:visited {
-    color: #0576b9;
+    color: #949494;
 }
 
 a:hover,
 a:active,
 a:focus {
-    color: #fff;
+    color: #c7c7c7;
 }
 
 hr {
@@ -40,7 +40,7 @@ h1 a:active,
 h1 a:hover,
 h1 a:link,
 h1 a:visited {
-    color: #0576b9;
+    color: #e6e6e6;
 }
 
 .bordered {
@@ -1730,6 +1730,47 @@ textarea[readonly] {
     background-color: #222;
 }
 
+
+.c-search {
+    background: #3b3b3b;
+}
+
+.c-search_message__body {
+    color: #fff;
+}
+
+
+
+.popover,
+.popover > div,
+.c-search__input_box,
+.c-search__input_and_close__close {
+    background-color: #222;
+}
+
+.c-search__input_box,
+.c-search__input_and_close__close {
+    border-top: 1px solid #545454;
+}
+
+.popover .arrow::after {
+    background-color: #000;
+}
+
+.popover .arrow_shadow::after {
+    background-color: #222;
+    box-shadow: 0 0 0 1px #545454, 0 0 3px rgba(0, 0, 0, .08);
+}
+
+.popover.showing_header .arrow::after,
+.popover.showing_header .arrow_shadow::after {
+    background-color: #222 !important;
+}
+
+.popover .content {
+    background-color: #222;
+}
+
 .tab_complete_ui {
     border: 1px solid #363636;
     background: #222;
@@ -2405,13 +2446,13 @@ ts-message:hover .edited,
 ts-message:hover .reply_bar .last_reply_at,
 ts-message:hover .timestamp,
 ts-message:hover.automated .message_body {
-    color: #e0e0e0;
+    color: #949494;
 }
 
 ts-message.active .meta,
 ts-message.message--focus .meta,
 ts-message:hover .meta {
-    color: #e0e0e0 !important;
+    color: #949494 !important;
 }
 
 ts-message.active .meta.msg_inline_file_preview_toggler a,
@@ -4032,7 +4073,7 @@ ts-thread .thread_participants {
 }
 
 #flex_contents {
-    background: #3b3b3b;
+    background: #222;
 }
 
 #flex_contents .heading {
@@ -4815,9 +4856,9 @@ html.no_touch a.filetype_button_web:hover .file_title {
 a.c-member_slug,
 .c-member_slug--link,
 .c-mrkdwn__subteam--link {
-    color: #0576b9;
-    border: 1px solid #eaf5fc;
-    background: #eaf5fc;
+    color: #e6e6e6;
+    border: 1px solid #545454;
+    background: #363636;
 }
 
 a.c-member_slug.active,
@@ -4826,8 +4867,8 @@ a.c-member_slug:hover,
 .c-member_slug--link:hover,
 .c-mrkdwn__subteam--link.active,
 .c-mrkdwn__subteam--link:hover {
-    color: #0576b9;
-    background: #eaf5fc;
+    color: #e6e6e6;
+    background: #424242;
 }
 
 .mention_rxn .mention_rxn_summary {
@@ -7313,7 +7354,7 @@ footer ul a:link,
 footer ul a:visited,
 #autocomplete_menu.search_menu footer.unified ul a:link,
 #autocomplete_menu.search_menu footer.unified ul a:visited {
-    color: #0576b9;
+    color: #e6e6e6;
 }
 
 .plastic_row h3 {
@@ -7835,7 +7876,7 @@ table tr:first-child th:not(:only-of-type) {
 
 .ent_alert a:link,
 .ent_alert a:visited {
-    color: #0576b9;
+    color: #c7c7c7;
 }
 
 .ent_alert_page.ent_alert_error {
@@ -8387,7 +8428,7 @@ html.no_touch .action_cog:hover i {
 .widescreen:not(.nav_open) nav#site_nav ul a:visited,
 .widescreen:not(.nav_open) nav#site_nav ul a:hover,
 .widescreen:not(.nav_open) nav#site_nav ul a:active {
-    color: #0576b9;
+    color: #c7c7c7;
 }
 
 .widescreen:not(.nav_open) nav#site_nav #user_menu_name {
@@ -9723,4 +9764,44 @@ comments {
 .para_menu a.trigger.pilcrow:hover,
 .para_menu a.trigger.pilcrow.active {
     filter: grayscale(2) brightness(2);
+}
+
+ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator), 
+ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator), 
+ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator),
+.c-search_autocomplete__suggestion_list, .c-search_autocomplete__suggestion_list footer {
+    background: #1b1b1b !important;
+    background-color: #1b1b1b !important;
+}
+
+.c-search_autocomplete__suggestion_list span,
+.c-search_autocomplete__suggestion_list footer span {
+   color: #f0f0f0 !important;
+}
+
+.btn.dialog_go {
+/*     color: #f0f0f0 !important; */
+    background-color: #58b957 !important;
+}
+
+
+.btn,
+ts-message .action_hover_container .btn_msg_action:hover,
+.c-message_actions__container button:hover {
+    color: #fff !important;
+}
+
+.c-message_actions__button {
+    color: #fff !important;
+}
+
+ts-message .action_hover_container .btn_msg_action,
+ts-message .action_hover_container .btn_msg_action i,
+.c-message_actions__container {
+    background: #2d9ee0;
+}
+
+ts-message .action_hover_container .btn_msg_action:hover,
+.c-message_actions__container button:hover {
+    background: #007dc3 !important;
 }
