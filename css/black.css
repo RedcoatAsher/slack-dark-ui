@@ -9792,13 +9792,13 @@ ts-message .action_hover_container .btn_msg_action:hover,
 }
 
 .c-message_actions__button {
-    color: #1b1b1b !important;
+    color: #fff !important;
 }
 
 ts-message .action_hover_container .btn_msg_action,
 ts-message .action_hover_container .btn_msg_action i,
 .c-message_actions__container {
-    background: #bada55;
+    background: #2d9ee0;
 }
 
 ts-message .action_hover_container .btn_msg_action:hover,
