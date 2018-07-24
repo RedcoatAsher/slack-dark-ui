@@ -9788,7 +9788,7 @@ ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.n
 .btn,
 ts-message .action_hover_container .btn_msg_action:hover,
 .c-message_actions__container button:hover {
-    color: #f0f0f0 !important;
+    color: #fff !important;
 }
 
 .c-message_actions__button {
@@ -9803,5 +9803,5 @@ ts-message .action_hover_container .btn_msg_action i,
 
 ts-message .action_hover_container .btn_msg_action:hover,
 .c-message_actions__container button:hover {
-    background: #ef6d22 !important;
+    background: #007dc3 !important;
 }
