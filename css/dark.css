@@ -901,7 +901,7 @@ textarea[readonly] {
 }
 
 #msg_form #msg_input,
-.inline_message_input_container .with_file_upload {
+#reply_container.upload_in_threads .inline_message_input_container {
     color: #e6e6e6;
     border-color: #424242;
     border-left: 0;
