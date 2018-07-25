@@ -900,7 +900,8 @@ textarea[readonly] {
     border-color: #363636;
 }
 
-#msg_form #msg_input {
+#msg_form #msg_input,
+.inline_message_input_container .with_file_upload {
     color: #e6e6e6;
     border-color: #424242;
     border-left: 0;
@@ -9766,8 +9767,8 @@ comments {
     filter: grayscale(2) brightness(2);
 }
 
-ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator), 
-ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator), 
+ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator),
+ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator),
 ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator),
 .c-search_autocomplete__suggestion_list, .c-search_autocomplete__suggestion_list footer {
     background: #1b1b1b !important;
