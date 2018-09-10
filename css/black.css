@@ -9802,3 +9802,136 @@ ts-message .action_hover_container .btn_msg_action:hover,
 .c-message_actions__container button:hover {
     background: #007dc3 !important;
 }
+
+/* ------------------ v3.3.1 ----------------- */
+
+.ql-container.texty_single_line_input {
+    height: 35px;
+}
+
+.popover,
+.popover>div,
+.c-search__input_box,
+.c-search__input_and_close__close {
+    background-color: #222 !important;
+}
+
+footer,
+#autocomplete_menu.search_menu footer.unified {
+    color: #e6e6e6 !important;
+    background-color: #363636 !important;
+}
+
+#client_body:not(.onboarding):not(.feature_global_nav_layout):before {
+    background: transparent !important;
+}
+
+#threads_msgs .inline_message_input_container.with_file_upload .inline_file_upload {
+    width: 40px;
+    background-color: #545454 !important;
+    border-color: rgb(232, 232, 232);
+    border: 1px solid rgb(232, 232, 232);
+}
+
+#threads_msgs .inline_message_input_container.with_file_upload .inline_file_upload:hover,
+#threads_msgs .inline_message_input_container.with_file_upload .inline_file_upload:focus {
+    border: 1px solid #363636;
+    background: #56B68B !important;
+}
+
+#threads_msgs .inline_message_input_container.with_file_upload .inline_file_upload.active .upload_plus_icon,
+#threads_msgs .inline_message_input_container.with_file_upload .inline_file_upload.focus-ring .upload_plus_icon,
+#threads_msgs .inline_message_input_container.with_file_upload .inline_file_upload:focus .upload_plus_icon,
+#threads_msgs .inline_message_input_container.with_file_upload .inline_file_upload:hover .upload_plus_icon,
+button#primary_file_button:hover {
+    color: #fff;
+}
+
+#threads_msgs .inline_message_input_container.with_file_upload .message_input {
+    margin-left: 35px;
+}
+
+#threads_msgs .inline_message_input_container.with_file_upload .inline_file_upload:hover ts-icon.ts_icon_plus_thick.upload_plus_icon,
+#threads_msgs .inline_message_input_container.with_file_upload .inline_file_upload:focus ts-icon.ts_icon_plus_thick.upload_plus_icon,
+ts-icon.ts_icon_plus_thick.upload_plus_icon:hover,
+ts-icon.ts_icon_plus_thick.upload_plus_icon:focus,
+button#primary_file_button:hover ts-icon.ts_icon_plus_thick.upload_plus_icon,
+button#primary_file_button:focus ts-icon.ts_icon_plus_thick.upload_plus_icon{
+    background: #56B68B !important;
+}
+
+ul#menu_items li a {
+    color: #949494;
+}
+
+.menu_item_label,
+div.menu.submenu > ul li a {
+    color: #ccc;
+}
+
+div.menu.submenu > ul li a:hover,
+div.menu.submenu > ul li a:focus,
+ul#menu_items li a:hover,
+ul#menu_items li a:focus,
+span.c-message__reply_bar_view_thread,
+.menu_item_label:hover,
+.channel_link {
+    color: #fff !important;
+}
+
+.c-search_autocomplete footer {
+    margin-top: 0;
+}
+
+.texty_legacy.texty_single_line_input .ql-editor {
+    height: auto;
+    max-height: 30px;
+}
+
+.ReactModal__Content.ReactModal__Content--after-open.popover {
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.texty_legacy.texty_single_line_input .ql-editor > p{
+    padding-top: 6px;
+}
+
+.c-search__input_and_close {
+    height: 60px;
+}
+
+.c-search_modal:not(.c-search_modal--primarysearch) .c-search__input_box {
+    margin-top: 9px;
+    border: none;
+}
+
+.c-search__input_box,
+.c-search__input_and_close__close,
+.c-pillow_file_container {
+    border: none !important;
+}
+
+.c-search_modal .c-search__input_box__icon {
+    left: -10px;
+}
+
+.c-pillow_file,
+.p-file_list__header,
+.p-flexpane_header,
+.p-file_list__filters {
+    background: #363636;
+}
+
+.c-pillow_file__title {
+    color: #fff;
+}
+
+.p-search_filter__dates,
+.c-input_select_options_list_container {
+    background-color: #262626;
+}
+
+.message_body a {
+    color: #007dc3;
+}
