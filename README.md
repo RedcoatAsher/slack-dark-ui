@@ -2,7 +2,8 @@
 My version of a Slack Dark UI
 
 ### Reset
+Open... 
 ```bash
-cd /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/
+/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/
 ```
-and remove `functions` of `DOMContentLoaded` at the bottom. TaDa!
+and remove `functions` of `DOMContentLoaded` at the very bottom. TaDa!
