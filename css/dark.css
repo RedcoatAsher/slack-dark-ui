@@ -9929,7 +9929,7 @@ span.c-message__reply_bar_view_thread,
 .c-input_select_options_list_container,
 .c-message_kit__gutter.c-message_kit__gutter--compact,
 .p-threads_view__footer {
-    background-color: #262626;
+    background-color: #363636;
 }
 
 .message_body a {
@@ -9937,12 +9937,12 @@ span.c-message__reply_bar_view_thread,
 }
 
 .p-threads_view {
-    background: #363636 !important;
+    background: #262626 !important;
 }
 
 .c-message_kit__background.p-threads_view_root.c-message_kit__message.c-message_kit__thread_message.c-message_kit__thread_message--root,
 .c-message_kit__background.c-message_kit__message.c-message_kit__thread_message.p-threads_view_reply {
-    border: 0px solid #fff;
+    border-color: #363636;
 }
 
 .p-threads_view__footer {
