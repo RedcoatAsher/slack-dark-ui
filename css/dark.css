@@ -9932,7 +9932,8 @@ span.c-message__reply_bar_view_thread,
 
 .c-pillow_file__title,
 .c-channel_name__text.c-channel_name__text--inline,
-.c-icon.c-icon--channel.c-icon--inherit {
+.c-icon.c-icon--channel.c-icon--inherit,
+#team_tab #member_preview_scroller .member_details .member_name {
     color: #fff;
 }
 
