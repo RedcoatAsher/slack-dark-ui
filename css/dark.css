@@ -9804,6 +9804,14 @@ ts-message .action_hover_container .btn_msg_action:hover,
     background: #007dc3 !important;
 }
 
+.c-link {
+    color: #2d9ee0 !important;
+}
+
+.c-link:hover {
+    color: #007dc3 !important;
+}
+
 /* ------------------ v3.3.1 ----------------- */
 
 .ql-container.texty_single_line_input {
@@ -9951,6 +9959,10 @@ span.c-message__reply_bar_view_thread,
 .c-message_kit__gutter.c-message_kit__gutter--compact,
 .p-threads_view__footer {
     background-color: #363636;
+}
+
+.p-message_pane__foreword__notification_warning {
+    background: #222;
 }
 
 .message_body a {
