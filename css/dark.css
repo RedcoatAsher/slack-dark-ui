@@ -9950,7 +9950,9 @@ span.c-message__reply_bar_view_thread,
     color: #ccc;
 }
 
-.c-texty_input .ql-placeholder {
+.c-texty_input .ql-placeholder,
+.c-icon--times,
+.p-threads_flexpane__header_channel_name {
     color: #ccc !important;
 }
 
@@ -9980,4 +9982,8 @@ span.c-message__reply_bar_view_thread,
 
 .p-threads_view__footer {
     border-color: transparent;
+}
+
+code {
+    color: #E88F30;
 }
