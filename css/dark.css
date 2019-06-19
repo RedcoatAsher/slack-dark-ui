@@ -4866,6 +4866,13 @@ a.c-member_slug,
     background: #363636;
 }
 
+a.c-member_slug {
+    color: #000 !important;
+    background: #e0e0e0;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+
 a.c-member_slug.active,
 a.c-member_slug:hover,
 .c-member_slug--link.active,
@@ -9802,8 +9809,8 @@ ts-message .action_hover_container .btn_msg_action:hover,
     background: #007dc3 !important;
 }
 
-.c-link {
-    color: #2d9ee0 !important;
+a.c-link {
+    color: #2d9ee0;
 }
 
 .c-link:hover {
