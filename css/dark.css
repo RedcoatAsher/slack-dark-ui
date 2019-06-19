@@ -27,11 +27,9 @@ hr {
 h1,
 h2,
 h3,
-h4 {
-    color: #e6e6e6;
-}
-
-h1 a {
+h4,
+h1 a,
+.c-message_attachment__author_name {
     color: #e6e6e6;
 }
 
