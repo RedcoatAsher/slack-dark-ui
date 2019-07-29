@@ -49,13 +49,12 @@ div.c-virtual_list__scroll_container {
     z-index: 0;
 }
 
-.c-scrollbar__hider {
-    background: #222222 !important;
-}
-
+.c-scrollbar__hider,
+.p-channel_sidebar,
 #team_menu,
 #team_menu_overlay {
-    background: #222222 !important;
+    background: #4b4b4b !important;
+    color: #B3D6EE;
 }
 
 #client_body:not(.onboarding):not(.feature_global_nav_layout):before {
@@ -3194,10 +3193,6 @@ p-search_filter__from_name, .p-search_filter__in_channel, .p-search_filter__in_c
 }
 
 .p-classic_nav__team_header {
-    background: #222222 !important;
-}
-
-.p-channel_sidebar {
     background: #222222 !important;
 }
 
