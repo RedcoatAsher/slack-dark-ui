@@ -57,6 +57,10 @@ div.c-virtual_list__scroll_container {
     color: #B3D6EE;
 }
 
+.c-message--dense .c-message__content_header .c-custom_status {
+    border: 1px solid transparent;
+}
+
 #client_body:not(.onboarding):not(.feature_global_nav_layout):before {
     box-shadow: none !important;
     border-left: 1px solid #303030;
