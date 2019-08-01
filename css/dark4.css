@@ -64,7 +64,7 @@ div.c-virtual_list__scroll_container {
 }
 
 .c-scrollbar__bar {
-    background: #a4d677 !important;
+    background: rgba(164, 214, 119, 0.5) !important;
 }
 .c-message_attachment__border {
     background: #FF00DE !important;
@@ -267,10 +267,12 @@ ts-message .mention {
 }
 
 .p-unreads_view__header {
-    background: rgba(0, 119, 204, 0.5);
+    /* background: #0077CC80; */
+    background: #164d78;
 }
 
-.p-unreads_view__spacer--bottom {
+.p-unreads_view__spacer--bottom,
+.p-unreads_view__show_newer {
     border-bottom: 1px solid transparent;
 }
 
