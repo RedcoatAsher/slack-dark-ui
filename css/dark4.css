@@ -52,9 +52,27 @@ div.c-virtual_list__scroll_container {
 .c-scrollbar__hider,
 .p-channel_sidebar,
 #team_menu,
-#team_menu_overlay {
-    background: #4b4b4b !important;
+#team_menu_overlay,
+.p-flexpane_header,
+#p-flexpane_body {
+    background: #2b2b2b !important;
     color: #B3D6EE;
+}
+
+.p-threads_flexpane__separator_count {
+    color: #fff;
+}
+
+.c-scrollbar__bar {
+    background: #a4d677 !important;
+}
+.c-message_attachment__border {
+    background: #FF00DE !important;
+}
+
+.c-virtual_list > .c-scrollbar__hider,
+.p-flexpane__body .c-virtual_list > .c-scrollbar__hider > .c-scrollbar__child > .c-virtual_list__scroll_container {
+    background: #2b2b2b !important;
 }
 
 .c-message--dense .c-message__content_header .c-custom_status {
@@ -243,8 +261,17 @@ ts-message .mention {
     color: white !important;
 }
 
-.p-file_upload_dialog__preview {
+.p-file_upload_dialog__preview,
+#messages_container.has_top_messages_banner:before {
     background: transparent !important;
+}
+
+.p-unreads_view__header {
+    background: rgba(0, 119, 204, 0.5);
+}
+
+.p-unreads_view__spacer--bottom {
+    border-bottom: 1px solid transparent;
 }
 
 .c-input_select {
@@ -398,7 +425,7 @@ ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.n
 }
 
 .p-flexpane_header {
-    background: #1f2021 !important;
+    /* background: #1f2021 !important; */
 }
 
 .p-file_list__filters {
