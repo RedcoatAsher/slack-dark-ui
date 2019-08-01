@@ -185,6 +185,10 @@ ts-message .mention {
     color: #fcc973 !important;
 }
 
+.p-classic_nav__channel_header__subtitle {
+    color: #ccc !important;
+}
+
 .c-member_slug--link {
     font-weight: 600 !important;
     border: none !important;
@@ -197,7 +201,8 @@ ts-message .mention {
     color: white !important
 }
 
-.menu_content a {
+.menu_content a,
+.p-pages__legacy_page_header {
     color: white !important;
 }
 
