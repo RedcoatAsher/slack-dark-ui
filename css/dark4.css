@@ -179,9 +179,13 @@ ts-message .mention {
     text-shadow: none;
 }
 
-.c-member_slug--link {
+.c-member_slug--link,
+.c-message__rollup_member {
     background: transparent;
     color: #fcc973 !important;
+}
+
+.c-member_slug--link {
     font-weight: 600 !important;
     border: none !important;
     font-size: 13px;
@@ -777,7 +781,8 @@ a:hover {
 }
 
 code {
-    color: #29ffe8 !important;
+    /* color: #29ffe8 !important; */
+    color: #fcc973 !important;
 }
 
 .searchable_member_list_filter {
