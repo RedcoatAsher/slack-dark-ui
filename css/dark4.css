@@ -2,9 +2,10 @@
 
 body {
     font-family: 'Muli', sans-serif !important;
-    text-rendering: optimizeLegibility important;
+    text-rendering: optimizeLegibility !important;
     word-spacing: -1px;
     -webkit-font-smoothing: auto;
+    color: #ccc !important;
 }
 
 .supports_custom_scrollbar #msg_input.texty_legacy .ql-editor {
@@ -52,15 +53,33 @@ div.c-virtual_list__scroll_container {
 .c-scrollbar__hider,
 .p-channel_sidebar,
 #team_menu,
-#team_menu_overlay,
-.p-flexpane_header,
-#p-flexpane_body {
+#team_menu_overlay {
     background: #2b2b2b !important;
     color: #B3D6EE;
 }
 
-.p-threads_flexpane__separator_count {
+.p-flexpane_header,
+.p-flexpane__body,
+.p-user_group_base_row__list_item {
+    background: #2b2b2b !important;
+}
+
+.p-user_group_base_row__list_item {
+    border-bottom: 1px dashed #ccc;
+}
+
+.p-threads_flexpane__separator_count,
+.p-classic_nav__team_menu__blurb__name,
+.p-user_group_details__name {
     color: #fff;
+}
+
+.p-user_group_details__description {
+    color: inherit;
+}
+
+.p-classic_nav__team_menu__blurb__sub {
+    color: #999;
 }
 
 .c-scrollbar__bar {
@@ -68,6 +87,10 @@ div.c-virtual_list__scroll_container {
 }
 .c-message_attachment__border {
     background: #FF00DE !important;
+}
+
+.c-menu_separator__separator {
+    border-top: 1px dashed #ccc;
 }
 
 .c-virtual_list > .c-scrollbar__hider,
@@ -136,7 +159,8 @@ a {
 ts-message .app_preview_link_slug,
 ts-message .internal_member_link,
 ts-message .internal_user_group_link,
-ts-message .mention {
+ts-message .mention,
+.p-user_group_details__handle {
     color: #fecd8a !important;
     font-size: 14px;
     background: transparent
@@ -992,7 +1016,8 @@ a.file_download_link:hover {
 
 .c-button--outline:hover {
     box-shadow: none !important;
-    background: green !important;
+    /* background: green !important; */
+    background: #a4d67780 !important;
 }
 
 .rxn.user_reacted .emoji_rxn_count {
@@ -1414,13 +1439,22 @@ textarea.c-input_textarea.c-input_textarea--with_hint {
     color: white !important;
 }
 
-.p-prefs_modal__radiogroup .p-prefs_modal__radio_decorator {
+.p-prefs_modal__radiogroup .p-prefs_modal__radio_decorator,
+.p-classic_nav__channel_header,
+.p-classic_nav__right_header {
     background: #2b2b2b;
+    color: #fff;
 }
 
 #footer_archives_preview {
     background-color: #2f2f2f;
     border-top: 1px solid #525252;
+}
+
+.c-message__editor__input {
+    background: #525252;
+    color: #fff;
+    border: 1px solid #ffe9b8 !important;
 }
 
 .c-archive_footer__metadata {
@@ -3392,7 +3426,7 @@ p-search_filter__from_name, .p-search_filter__in_channel, .p-search_filter__in_c
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    color: rgb(255, 255, 255) !important;
+    color: #999 !important;
 }
 
 .p-dm_browser_modal__list_row_meta {
