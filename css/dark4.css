@@ -58,6 +58,14 @@ div.c-virtual_list__scroll_container {
     color: #B3D6EE;
 }
 
+.p-classic_nav__model__title__name__status--im {
+    color: #9fa8da !important;
+}
+
+.p-classic_nav__model__title__info__secondary_name {
+    color: #b39ddb !important;
+}
+
 .p-flexpane_header,
 .p-flexpane__body,
 .p-user_group_base_row__list_item {
@@ -69,6 +77,7 @@ div.c-virtual_list__scroll_container {
 }
 
 .p-threads_flexpane__separator_count,
+.p-classic_nav__model__title__info__sep,
 .p-classic_nav__team_menu__blurb__name,
 .p-user_group_details__name {
     color: #fff;
@@ -85,6 +94,7 @@ div.c-virtual_list__scroll_container {
 .c-scrollbar__bar {
     background: rgba(164, 214, 119, 0.5) !important;
 }
+
 .c-message_attachment__border {
     background: #FF00DE !important;
 }
@@ -93,8 +103,8 @@ div.c-virtual_list__scroll_container {
     border-top: 1px dashed #ccc;
 }
 
-.c-virtual_list > .c-scrollbar__hider,
-.p-flexpane__body .c-virtual_list > .c-scrollbar__hider > .c-scrollbar__child > .c-virtual_list__scroll_container {
+.c-virtual_list>.c-scrollbar__hider,
+.p-flexpane__body .c-virtual_list>.c-scrollbar__hider>.c-scrollbar__child>.c-virtual_list__scroll_container {
     background: #2b2b2b !important;
 }
 
@@ -160,10 +170,36 @@ ts-message .app_preview_link_slug,
 ts-message .internal_member_link,
 ts-message .internal_user_group_link,
 ts-message .mention,
-.p-user_group_details__handle {
-    color: #fecd8a !important;
+.p-user_group_details__handle,
+.p-classic_nav__model__title__info__secondary_name,
+.c-member_slug--link,
+.c-message__rollup_member {
+    color: #fcc973 !important;
     font-size: 14px;
-    background: transparent
+    background: transparent;
+}
+
+.c-member_slug--link:hover {
+    background: #fcc973;
+    color: #000 !important
+}
+
+.c-member_slug--mention,
+.c-member_slug--mention:hover {
+    background: #fcc973 !important;
+    color: black !important;
+    overflow: hidden;
+    line-height: 16px !important;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+}
+
+.c-member_slug--link {
+    font-weight: 600 !important;
+    border: none !important;
+    font-size: 13px;
+    padding: 0px 2px 1px 2px;
 }
 
 .btn {
@@ -203,26 +239,8 @@ ts-message .mention,
     text-shadow: none;
 }
 
-.c-member_slug--link,
-.c-message__rollup_member {
-    background: transparent;
-    color: #fcc973 !important;
-}
-
 .p-classic_nav__channel_header__subtitle {
     color: #ccc !important;
-}
-
-.c-member_slug--link {
-    font-weight: 600 !important;
-    border: none !important;
-    font-size: 13px;
-    padding: 0px 2px 1px 2px;
-}
-
-.c-member_slug--link:hover {
-    background: #de5ea2;
-    color: white !important
 }
 
 .menu_content a,
@@ -232,17 +250,6 @@ ts-message .mention,
 
 .menuitem a {
     color: white !important;
-}
-
-.c-member_slug--mention,
-.c-member_slug--mention:hover {
-    background: #fbd9a5 !important;
-    color: black !important;
-    overflow: hidden;
-    line-height: 16px !important;
-    display: inline-block;
-    position: relative;
-    top: 4px;
 }
 
 #convo_tab .message_input,
