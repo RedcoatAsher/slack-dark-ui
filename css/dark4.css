@@ -3329,19 +3329,14 @@ p-search_filter__from_name, .p-search_filter__in_channel, .p-search_filter__in_c
 
 .p-member_profile_field__label {
     font-size: 13px;
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
 
-.p-member_profile_field__value {
-    color: white
-}
-
-.p-member_profile_name__subtitle {
-    color: white
-}
-
-.p-member_profile_field__value {
-    color: white
+.p-member_profile_field__value,
+.p-member_profile_name__subtitle,
+.p-member_profile_field__value,
+.p-unreads_view__empty__message div {
+    color: #fff;
 }
 
 .p-member_profile_name__title {
@@ -3355,6 +3350,8 @@ p-search_filter__from_name, .p-search_filter__in_channel, .p-search_filter__in_c
     grid-template-areas: "p-workspace__primary_view_contents";
     grid-template-rows: auto;
     border-left: 1px solid #404040;
+    background-color: #1b1b1b;
+
 }
 
 .p-member_profile_field {
