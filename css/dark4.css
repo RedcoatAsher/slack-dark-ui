@@ -2442,6 +2442,9 @@ c-keyboard_key {
 .c-message--sli_highlight .c-message__label__icon {
     color: #ffd452;
 }
+.c-icon--star {
+    color: #ffd452 !important;
+}
 
 .c-message--pinned, .c-message--sli_highlight:not(.c-message--sli_highlight_negative), .c-message--starred {
     background: rgb(52, 54, 56);
@@ -2797,17 +2800,21 @@ ts-message .action_hover_container .btn_msg_action {
     background: #232323;
 }
 
-.c-icon {
-    color: #acacac;
-}
-
 .ts_icon_happy_smile:before {
     content: '\E119';
     color: #5b5b5b !important;
 }
 
 .c-icon {
-    color: #ffffff;
+    color: #fff;
+}
+.c-icon--arrow-large-left,
+.c-icon--arrow-large-right {
+    color: #000;
+}
+
+.p-file_viewer__header__meta__name {
+    color: #aaa;
 }
 
 .p-channel_sidebar__link--selected {
