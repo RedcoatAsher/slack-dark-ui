@@ -472,10 +472,6 @@ ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.n
     border: 0px !important;
 }
 
-.p-flexpane_header {
-    /* background: #1f2021 !important; */
-}
-
 .p-file_list__filters {
     background: #1f2021 !important;
 }
@@ -836,7 +832,7 @@ a:hover {
 }
 
 .p-file_list__empty {
-    background #222222 !important;
+    background: #222222 !important;
 }
 
 code {
@@ -1221,7 +1217,7 @@ input[type=search]:focus {
 #reply_container .inline_message_input_container textarea,
 .reply_input_container .inline_message_input_container .message_input div,
 .reply_input_container .inline_message_input_container textarea {
-    colo: white !important;
+    color: white !important;
     opacity: 1 !important;
 }
 
@@ -1650,8 +1646,7 @@ textarea.c-input_textarea.c-input_textarea--with_hint {
 .p-channel_sidebar__channel--selected:hover,
 .p-channel_sidebar__link--selected,
 .p-channel_sidebar__link--selected:hover {
-    background: #505050;
-    !important
+    background: #505050 !important;
 }
 
 .c-color_picker__container {
@@ -1831,7 +1826,8 @@ code {
 }
 
 .c-reaction_add {
-    opacity: 1 background:#656565;
+    opacity: 1;
+    background:#656565;
 }
 
 .c-reaction:hover {
@@ -2015,7 +2011,7 @@ pre {
     background-position: 0 100%;
     background-repeat: repeat-x;
     background-color: #383838;
-    background-image: none;
+/*    background-image: none;*/
 }
 
 .supports_custom_scrollbar:not(.slim_scrollbar) #messages_container:after {
@@ -2066,7 +2062,7 @@ pre {
 
 .c-input_select_options_list__empty_state {
     display: block;
-    text-overflow: ellipsis;
+    /* text-overflow: ellipsis; */
     overflow: hidden;
     white-space: nowrap;
     color: #ffffff;
@@ -2362,7 +2358,7 @@ textarea {
 
 .c-filter_input__input[type=text][placeholder] {
     background: transparent;
-    text-overflow: ellipsis;
+    /* text-overflow: ellipsis; */
     color: white;
 }
 
@@ -2682,7 +2678,8 @@ c-keyboard_key {
 
 #msg_form .ql-editor,
 #msg_form .ql-placeholder {
-    opacity: 0.4, color:white
+    opacity: 0.4;
+    color: white;
 }
 
 .supports_custom_scrollbar .texty_legacy .ql-editor,
@@ -3043,8 +3040,7 @@ ts-message .reply_bar:hover {
 .p-channel_sidebar__channel--selected:hover,
 .p-channel_sidebar__link--selected,
 .p-channel_sidebar__link--selected:hover {
-    background: #343434;
-    !important
+    background: #343434 !important;
 }
 
 .p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name,
@@ -3096,8 +3092,6 @@ ts-message .reply_bar:hover {
 
 #details_tab .restricted_members_count {
     color: white
-}
-
 }
 
 .presence_icon:before {
@@ -3343,7 +3337,7 @@ div.p-message_pane__foreword__description span {
     padding-top: 0;
     padding-bottom: 8px;
     flex: 1;
-    padding-left: 43px;
+/*    padding-left: 43px;*/
     z-index: 200;
     color: white;
 }
@@ -3382,7 +3376,7 @@ div.p-message_pane__foreword__description span {
 .p-classic_nav__model__title__info__topic__text {
     position: relative;
     display: block;
-    text-overflow: ellipsis;
+    /* text-overflow: ellipsis; */
     overflow: hidden;
     white-space: nowrap;
     color: white;
@@ -3430,8 +3424,7 @@ p-classic_nav__right__search:hover {
 
 .c-member_name {
     margin-right: 4px;
-    color: white;
-    !important
+    color: white !important;
 }
 
 .c-message_kit__pillow {
@@ -3472,14 +3465,14 @@ p-classic_nav__right__search:hover {
     border-left: 1px solid rgb(56, 56, 56) !important;
 }
 
-p-search_filter__from_name,
+.p-search_filter__from_name,
 .p-search_filter__in_channel,
 .p-search_filter__in_channel .c-channel_name__team_name,
 .p-search_filter__in_channel .c-channel_name__text,
 .p-search_filter__in_member {
     white-space: nowrap;
     overflow-x: hidden;
-    text-overflow: ellipsis;
+    /* text-overflow: ellipsis; */
     color: #ffabab !important;
 }
 
@@ -3504,7 +3497,7 @@ p-search_filter__from_name,
 .p-search_filter__in_member {
     white-space: nowrap;
     overflow-x: hidden;
-    text-overflow: ellipsis;
+    /* text-overflow: ellipsis; */
     color: white;
 }
 
@@ -3538,7 +3531,7 @@ p-search_filter__from_name,
 
 .p-flexpane__body--empty {
     align-items: center;
-    background-color: #141414 . !important;
+    background-color: #141414 !important;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -3681,7 +3674,7 @@ p-search_filter__from_name,
 .c-base_entity__metadata,
 .c-base_entity__subtext {
     display: block;
-    text-overflow: ellipsis;
+    /* text-overflow: ellipsis; */
     overflow: hidden;
     white-space: nowrap;
     color: #999 !important;
