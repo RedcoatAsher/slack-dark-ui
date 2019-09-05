@@ -977,7 +977,7 @@ a.file_download_link:hover {
     border-left: 2px solid #ff5656;
     padding-left: 6px;
     height: 20px;
-    overflow: hidden;
+    /* overflow: hidden; */
     line-height: 16px;
     font-size: 17px;
     font-weight: 700;
