@@ -1198,6 +1198,10 @@ input[type=search]:focus {
     color: white !important;
 }
 
+.p-workspace__input .p-message_input_field .ql-editor {
+    padding-left: 30px;
+}
+
 .p-threads_footer__input--legacy .p-message_input_field {
     min-height: 24px;
     padding-left: 42px;
@@ -1232,6 +1236,10 @@ input[type=search]:focus {
 .c-dialog__footer .c-button {
     background-color: #2ead5c;
     color: #ffffff;
+}
+
+.workspace__primary_view_footer {
+    padding: 20px 0 0;
 }
 
 .btn_outline.hover,
