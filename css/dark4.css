@@ -1199,7 +1199,7 @@ input[type=search]:focus {
 }
 
 .p-workspace__input .p-message_input_field .ql-editor {
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 .p-threads_footer__input--legacy .p-message_input_field {
