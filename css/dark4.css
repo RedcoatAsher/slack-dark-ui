@@ -1238,6 +1238,10 @@ input[type=search]:focus {
     color: #ffffff;
 }
 
+.workspace__primary_view_footer {
+    padding: 20px 0 0;
+}
+
 .btn_outline.hover,
 .btn_outline:focus,
 .btn_outline:hover {
