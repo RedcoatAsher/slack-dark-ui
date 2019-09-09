@@ -1589,6 +1589,8 @@ textarea.c-input_textarea.c-input_textarea--with_hint {
 
 .p-channel_sidebar__name {
     color: white;
+    width: 100%;
+    overflow: hidden;
 }
 
 .texty_legacy.texty_single_line_input .ql-editor,
