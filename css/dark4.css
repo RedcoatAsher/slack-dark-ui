@@ -618,22 +618,6 @@ a:visited {
     color: white !important;
 }
 
-a.p-channel_sidebar__channel[data-qa-channel-sidebar-channel-type="channel"]:before,
-a.p-channel_sidebar__channel[data-qa-channel-sidebar-channel-type="channel"]:after,
-a.p-channel_sidebar__channel[data-qa-channel-sidebar-channel-type="channel"],
-a.p-channel_sidebar__channel[data-qa-channel-sidebar-channel-type="channel"] > span,
-.c-mrkdwn__channel.internal_channel_link {
-    color: #ff77ff !important;
-    opacity: 0.8 !important;
-}
-
-a.p-channel_sidebar__channel[data-qa-channel-sidebar-channel-type="private"]:before,
-a.p-channel_sidebar__channel[data-qa-channel-sidebar-channel-type="private"]:after,
-a.p-channel_sidebar__channel[data-qa-channel-sidebar-channel-type="private"],
-a.p-channel_sidebar__channel[data-qa-channel-sidebar-channel-type="private"] > span {
-    color: #008080 !important;
-}
-
 .p-download_item__actions {
     background: none;
 }
@@ -2623,6 +2607,10 @@ c-keyboard_key {
     color: #ffffff;
 }
 
+.c-pillow_file__snippet__content .CodeMirror-code {
+    background: #1b1b1b;
+}
+
 .c-pillow_file__snippet__content .CodeMirror-code > div:before {
     color: rgb(255, 101, 101);
 }
@@ -3734,4 +3722,20 @@ p-classic_nav__right__search:hover {
     display: block;
     padding-bottom: 8px;
     color: #a6a6a6 !important;
+}
+
+a.p-channel_sidebar__channel[data-qa-channel-sidebar-channel-type="channel"]:before,
+a.p-channel_sidebar__channel[data-qa-channel-sidebar-channel-type="channel"]:after,
+a.p-channel_sidebar__channel[data-qa-channel-sidebar-channel-type="channel"],
+a.p-channel_sidebar__channel[data-qa-channel-sidebar-channel-type="channel"] > span,
+.c-mrkdwn__channel.internal_channel_link {
+    color: #ff77ff;
+    opacity: 0.8 !important;
+}
+
+a.p-channel_sidebar__channel[data-qa-channel-sidebar-channel-type="private"]:before,
+a.p-channel_sidebar__channel[data-qa-channel-sidebar-channel-type="private"]:after,
+a.p-channel_sidebar__channel[data-qa-channel-sidebar-channel-type="private"],
+a.p-channel_sidebar__channel[data-qa-channel-sidebar-channel-type="private"] > span {
+    color: #008080 !important;
 }
