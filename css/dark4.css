@@ -3729,7 +3729,7 @@ a.p-channel_sidebar__channel[data-qa-channel-sidebar-channel-type="channel"]:aft
 a.p-channel_sidebar__channel[data-qa-channel-sidebar-channel-type="channel"],
 a.p-channel_sidebar__channel[data-qa-channel-sidebar-channel-type="channel"] > span,
 .c-mrkdwn__channel.internal_channel_link {
-    color: #ff77ff;
+    color: #ff77ff !important;
     opacity: 0.8 !important;
 }
 
