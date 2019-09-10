@@ -615,7 +615,7 @@ a:visited {
 .p-channel_sidebar__section_heading_label--clickable:hover,
 .p-channel_sidebar__section_heading_label--unreads,
 .p-channel_sidebar__quickswitcher:hover {
-    color: white !important;
+    /* color: white !important; */
 }
 
 .p-download_item__actions {
